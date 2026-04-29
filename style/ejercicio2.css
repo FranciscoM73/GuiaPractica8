@@ -1,0 +1,30 @@
+.contenedor {
+    width: 600px;
+    border: 2px solid blue;
+    margin: 20px auto;
+}
+.header, .footer {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+.contenido {
+    width: 418px; /* 70% aprox */
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+}
+.menu {
+    width: 178px; /* 30% aprox */
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+}
+.limpiar {
+    clear: both;
+}

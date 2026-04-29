@@ -1,0 +1,11 @@
+.cuadro {
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 5px;
+    float: left;
+    background-color: #ddd;
+}
+.grupo-9 {
+    width: 300px; /* Para que solo quepan 3 por fila */
+}

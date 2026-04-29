@@ -1,0 +1,31 @@
+.tabla-layout {
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  .menu-lateral {
+    background-color: green;
+    width: 100px;
+    float: right;
+    color: white;
+    padding: 10px;
+  }
+  .cuerpo-texto {
+    width: 370px;
+    float: left;
+    padding: 5px;
+  }
+  .pie-pagina {
+    clear: both;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  /* El efecto de los iconos */
+  .icono {
+    width: 30px;
+    filter: grayscale(100%); /* Empieza en gris */
+  }
+  .icono:hover {
+    filter: grayscale(0%); /* Se pone a color al pasar el mouse */
+  }
